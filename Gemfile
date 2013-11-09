@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'bitbucket'
+gem 'oauth'
+
+gem 'rest-client'
