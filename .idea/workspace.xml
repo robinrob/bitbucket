@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dce926de-73cb-4151-946f-86a0d82b4775" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/chapter3/escape.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/chapter4/randomize.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/arrays.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/code_block2.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/code_block3.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/code_block4.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/code_blocks.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/default_variable.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/hashes.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/hello.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/hello2.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/if_else.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/input.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/iterator.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/method_shortcut.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/output.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/printf.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/reg_exp.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/sayGoodnight.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/string_expression.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/string_sub.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/strings.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter1/while.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter2/class_def.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapter2/inheritance.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/chapter2/class.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/chapter2/format.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/chapter3/freeze.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/chapter4/mixins.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/chapter2/succ.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/bitbucket" afterPath="$PROJECT_DIR$/projects/bitbucket" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practise/chapter3/chomp.rb" afterPath="$PROJECT_DIR$/practise/chapter3/chomp.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ruby.iml" afterPath="$PROJECT_DIR$/.idea/ruby.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruby.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +44,14 @@
     <file path="/random.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384097648000" ignored="false" />
     <file path="/randomize.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384097814603" ignored="false" />
     <file path="/password.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384098121627" ignored="false" />
-    <file path="/chomp.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384105083626" ignored="false" />
+    <file path="/chomp.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384106176137" ignored="false" />
     <file path="/escape.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384105020086" ignored="false" />
+    <file path="/format.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384106006363" ignored="false" />
+    <file path="/succ.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384106432756" ignored="false" />
+    <file path="/class.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384106541988" ignored="false" />
+    <file path="/freeze.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384107667158" ignored="false" />
+    <file path="/symbols.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384107997561" ignored="false" />
+    <file path="/mixins.rb" changelist="dce926de-73cb-4151-946f-86a0d82b4775" time="1384108174373" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +75,17 @@
     <favorites_list name="ruby" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="mixins.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practise/chapter4/mixins.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="4" selection-start="93" selection-end="93" vertical-scroll-proportion="0.17699115">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -103,13 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/projects/bitbucket/credentials.rb" />
-        <option value="$PROJECT_DIR$/projects/bitbucket/settings.rb" />
-        <option value="$PROJECT_DIR$/projects/bitbucket/config.yaml" />
-        <option value="$PROJECT_DIR$/projects/bitbucket-app/config/routes.rb" />
-        <option value="$PROJECT_DIR$/projects/bitbucket-app/Gemfile" />
-        <option value="$PROJECT_DIR$/projects/bitbucket/config.yml" />
-        <option value="$PROJECT_DIR$/projects/bitbucket/bitbucket.rb" />
         <option value="$PROJECT_DIR$/projects/bitbucket-app/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/projects/bitbucket/Gemfile" />
         <option value="$PROJECT_DIR$/practise/chapter4/colors.rb" />
@@ -118,7 +111,14 @@
         <option value="$PROJECT_DIR$/practise/chapter4/password.rb" />
         <option value="$PROJECT_DIR$/projects/password/password.rb" />
         <option value="$PROJECT_DIR$/practise/chapter3/escape.rb" />
+        <option value="$PROJECT_DIR$/practise/chapter2/format.rb" />
         <option value="$PROJECT_DIR$/practise/chapter3/chomp.rb" />
+        <option value="$PROJECT_DIR$/practise/chapter2/succ.rb" />
+        <option value="$PROJECT_DIR$/practise/chapter2/class.rb" />
+        <option value="$PROJECT_DIR$/practise/chapter3/freeze.rb" />
+        <option value="$PROJECT_DIR$/practise/chapter4/symbols.rb" />
+        <option value="$PROJECT_DIR$/practise/chapter3/symbols.rb" />
+        <option value="$PROJECT_DIR$/practise/chapter4/mixins.rb" />
       </list>
     </option>
   </component>
@@ -263,7 +263,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="chapter1">
+            <PATH_ELEMENT USER_OBJECT="chapter4">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -382,13 +382,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="35" width="1276" height="778" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17476489" sideWeight="0.6713881" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17476489" sideWeight="0.6713881" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17476489" sideWeight="0.42634562" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -466,41 +466,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/bitbucket-app/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bitbucket-app/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bitbucket-app/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bitbucket-app/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="66" selection-end="66" vertical-scroll-proportion="0.06891271" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bitbucket-app/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="625" selection-end="625" vertical-scroll-proportion="0.41347626" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bitbucket/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="54" selection-start="161" selection-end="176" vertical-scroll-proportion="0.06891271" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bitbucket/bitbucket.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="207" selection-end="231" vertical-scroll-proportion="0.25267994" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/bitbucket-app/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="5" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.89586526" />
@@ -534,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practise/chapter3/escape.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="35" selection-end="35" vertical-scroll-proportion="0.044247787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/password/password.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
@@ -555,9 +513,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/practise/chapter2/format.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="65" selection-end="65" vertical-scroll-proportion="0.044247787">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/chapter3/escape.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/chapter2/succ.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="30" selection-end="30" vertical-scroll-proportion="0.044247787">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/chapter2/class.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="43" selection-end="43" vertical-scroll-proportion="0.044247787">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/chapter1/interpolation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practise/chapter3/chomp.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.044247787">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/chapter3/freeze.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="49" selection-start="527" selection-end="527" vertical-scroll-proportion="0.57522124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/chapter3/symbols.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="234" selection-end="234" vertical-scroll-proportion="0.13274336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/chapter4/mixins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="93" selection-end="93" vertical-scroll-proportion="0.17699115">
           <folding />
         </state>
       </provider>

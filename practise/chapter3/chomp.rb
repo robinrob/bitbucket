@@ -1,4 +1,7 @@
-print "enter input: "
+format = "%-15s"
+
+print format % "enter input: "
 input = gets
-puts "in: " + input.gsub("\n", "\\n")
-puts "chomped: " + input.chomp!().gsub("\n", "\\n")
+
+puts format % "in: " + input.gsub("\n", "\\n")
+puts format % "chomped: " + input.chomp!().gsub("\n", "\\n")
