@@ -1,34 +1,36 @@
 class Robin
+  ROBIN="SMITH"
+  
   private
   
   def smith
   end
 end
 
-puts Robin.new().respond_to?('smith')
+print "respond_to?: ", Robin.new().respond_to?('smith'), "\n"
 
-puts Robin.respond_to?('smith')
+print "respond_to?: ", Robin.respond_to?('smith'), "\n"
 
-puts Robin.new().is_a?(Robin)
+print "is_a?: ", Robin.new().is_a?(Robin), "\n"
 
-puts Robin.is_a?(Robin)
+print "is_a?: ",  Robin.is_a?(Robin), "\n"
 
-puts Robin.new().kind_of?(Robin)
+print "kind_of?: ", Robin.new().kind_of?(Robin), "\n"
 
-puts Robin.new().methods()[0]
+print "methods: ", Robin.new().methods()[0], "\n"
 
-puts Robin.methods()[0]
+print "methods: ", Robin.methods()[0], "\n"
 
-puts Robin.private_instance_methods()[0]
+print "private_instance_methods: ", Robin.private_instance_methods()[0], "\n"
 
-puts Robin.protected_instance_methods()
+print "protected_instance_methods: ", Robin.protected_instance_methods(), "\n"
 
-puts Robin.public_instance_methods()[0]
+print "public_instance_methods: ", Robin.public_instance_methods()[0], "\n"
 
-puts Robin.superclass()
+print "superclass: ", Robin.superclass(), "\n"
 
-puts Object.superclass()
+print "superclass: ", Object.superclass(), "\n"
 
-puts "nil" if BasicObject.superclass() == nil
+print "superclass: ", ("nil" if BasicObject.superclass() == nil), "\n"
 
-puts "constants: " + Robin.constants().to_s()
+print "constants: ", Robin.constants().to_s(), "\n"
