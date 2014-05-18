@@ -9,12 +9,14 @@ site = config['site']
 callback = config['callback']
 
 
+@callback_url = callback
+
 @consumer = OAuth::Consumer.new(consumer_key, consumer_secret, :site => site)
+puts @consumer.request_token_url
 
+@request_token = @consumer.get_request_token(:oauth_callback => @callback_url)
+#puts @request_token.authorize_url(:oauth_callback => @callback_url)
 
-@request_token = @consumer.get_request_token(:oauth_callback => callback)
+session[:request_token] = @request_token
 
-#puts @request_token
-
-##session[:request_token] = @request_token
-##redirect_to @request_token.authorize_url(:oauth_callback => @callback_url)
+redirect_to @request_token.authorize_url(:oauth_callback => @callback_url)

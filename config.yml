@@ -1,0 +1,4 @@
+consumer_key : QUKJZ27xfqynu55CaQ
+consumer_secret : hj67kduAq5VecN8Qpgu68sR5aAMQRnp8
+site : https://bitbucket.org/api/1.0
+callback: https://bitbucket.org/api/1.0/oauth/callback
