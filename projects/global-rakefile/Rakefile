@@ -1,0 +1,15 @@
+require 'colorize'
+
+path = ENV['GLOBAL_RAKEFILE_HOME']
+load "#{path}/robins_rakefile.rb"
+
+task :save_code do
+  repos = ENV["REPOS"].split(" ")
+
+  repos.each do |repo|
+    puts "Saving repo: #{repo}".green
+    Dir.chdir "#{repo}"
+    system "ls"
+    system "rake save"
+  end
+end
